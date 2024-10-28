@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const content = document.getElementById('content');
-    const overlay = document.getElementById('overlay');
+    const content = document.getElementById('main_content');
+    const overlay = document.getElementById('permission_overlay');
     const retryButton = document.getElementById('retry');
   
     // Function to check location permission and update the UI
