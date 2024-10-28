@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function requestLocation() {
       navigator.geolocation.getCurrentPosition(
         (position) => {
+          overlay.classList.remove('overlay');
           overlay.classList.add('hidden');
           content.classList.remove('hidden');
         },
