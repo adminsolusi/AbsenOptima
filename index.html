@@ -10,11 +10,6 @@
 </head>
 
 <body>
-    <div id="overlay" class="overlay">
-        <h2>Location Access Required</h2>
-        <p>Please allow location access to proceed.</p>
-        <button id="retry">Retry</button>
-    </div>
     <!-- ganti src url dengan url form anda -->
     <div id="content" class="hidden">
         <iframe id="gform"
@@ -23,7 +18,11 @@
             Loading…
         </iframe>
     </div>
-
+    <div id="overlay" class="overlay">
+        <h2>Location Access Required</h2>
+        <p>Please allow location access to proceed.</p>
+        <button id="retry">Retry</button>
+    </div>
     <script src="app.js"></script>
     <script type="text/javascript">
         var load = 0;
