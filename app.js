@@ -58,7 +58,7 @@ document.getElementById('gform').onload = function () {
     load++;
     if (load > 1) {
         // ganti url dibawah dengan url webapp anda
-        document.location = "https://script.google.com/macros/s/AKfycbxaRDgAnax9F60-DjbiNh56nVa-tYNM1zodZCJ_SNj5mBAi18g5UCLr3seh_rY4ggSf3A/exec";
+        document.location = "https://script.google.com/macros/s/AKfycbzDvczBetDxZ1WqhkRZPCEoWby8ZDtKm8dNWwr9Kt6sJ7ef4I5JITeutZ_pdo5YAE71Sg/exec";
 
     }
 }
